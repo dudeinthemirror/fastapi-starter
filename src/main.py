@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 
 # Create a new FastAPI app instance
-app = FastAPI(description="Test MCP server")
+app = FastAPI(description="FastAPI starter")
 
 
 # -------------------------------

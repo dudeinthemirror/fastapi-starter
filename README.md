@@ -44,13 +44,3 @@ ruff check --fix ./src
 ```shell
 uv run fastapi dev src/main.py --host 127.0.0.1 --port 8078
 ```
-
-- start the MCP inspector
-```shell
-npx @modelcontextprotocol/inspector http://127.0.0.1:8078/mcp
-```
-- open the inspector in the browser `http://127.0.0.1:5173`
-- in the left panel:
-  - Transport Type: SSE
-  - URL: `http://127.0.0.1:8078/mcp`
-  - click on `Connect`
