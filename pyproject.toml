@@ -2,7 +2,7 @@
 name = "fastapi-starter"
 version = "0.0.63"
 description = "FastAPI skeleton"
-requires-python = "==3.11.4"
+requires-python = "==3.13.3"
 readme = "README.md"
 dependencies = [
     "annotated-types==0.7.0",
